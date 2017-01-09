@@ -1,0 +1,7 @@
+hello, i have searching for a email address but dont see nothing, well, the problem is that your plugin not print the bottom
+in the post, only in the page, i solve this problem replacing this line
+--> if (is_page()){ 
+for this line
+--> if (is_singular()){   
+
+your pluging its realy good, i love it because its simple :) see ya
